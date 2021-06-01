@@ -26,7 +26,7 @@ html, body {
   height: 100%;
   top: 0px;
   left: 0px;
-  cursor: url("../img/06.png") 24 24, auto;
+  cursor: url("/img/06.png") 24 24, auto;
 }
 
 .game:hover .game__win {
@@ -76,7 +76,7 @@ html, body {
 }
 
 .game__body:before {
-  background: url("../img/game/01.png") 0 0/200px 200px no-repeat;
+  background: url("/img/game/01.png") 0 0/200px 200px no-repeat;
   border: 1px solid #fff;
   -webkit-animation: fly_1 3s infinite;
           animation: fly_1 3s infinite;
